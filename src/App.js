@@ -1,5 +1,8 @@
 import React from 'react';
 
+import useGameState from './useGameState';
+import Tile from './Tile';
+
 function App () {
   const [board, moves, solved, newGame, undo, move] = useGameState();
 
