@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Layout from './hoc/Layout/Layout';
-import GameState from './containers/GameState/GameState';
+import GameBuilder from './containers/GameBuilder/GameBuilder';
 
-function App() {
-  return (
-    <Layout>
-      <GameState />
-    </Layout>
-  );
+class App extends Component {
+
+  render() {
+    return (
+      <div>
+        <Layout>
+          <GameBuilder />
+        </Layout>
+      </div>
+    )
+  }
 }
 
 export default App;
