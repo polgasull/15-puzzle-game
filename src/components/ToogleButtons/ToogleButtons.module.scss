@@ -1,0 +1,20 @@
+.ToogleButtons {
+  text-align: center;
+  margin-top: 1rem;
+
+  button {
+    background-color: #050023;
+    border-color: #050023;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: darken(white, 10%);
+      color: black;
+    }
+  }
+}

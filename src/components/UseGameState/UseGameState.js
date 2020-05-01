@@ -2,7 +2,7 @@ import React from 'react';
 
 import GameState from '../../containers/GameState/GameState';
 
-function useGameState () {
+const useGameState = (props) => {
   const gameState = GameState.getInstance();
 
   const [state, setState] = React.useState(gameState.getState());
