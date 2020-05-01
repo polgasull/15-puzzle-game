@@ -1,6 +1,6 @@
 import React from 'react';
 
-import GameState from './GameState';
+import GameState from '../../containers/GameState/GameState';
 
 function useGameState () {
   const gameState = GameState.getInstance();

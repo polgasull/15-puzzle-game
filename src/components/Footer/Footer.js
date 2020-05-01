@@ -5,7 +5,7 @@ import styles from './Footer.module.scss';
 const footer = (props) => (
   <footer className={styles.Footer}>
     <div>
-      <p> Made by Pol Gasull </p>
+      <p> Weekendesk 15 Puzzle Game </p>
     </div>
   </footer>
 )

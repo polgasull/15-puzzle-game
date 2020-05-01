@@ -1,5 +1,20 @@
 .Header {
-  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
   width: 100%;
+  top: 0;
+  left: 0;
   background-color: #FF295A;  
+  padding: 0 20px;
+  box-sizing: border-box;
+  z-index: 90;
+  color: white;
+  font-weight: bold;
+
+  ul {
+    padding-top: .5rem;
+  }
 }
+

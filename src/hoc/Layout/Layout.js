@@ -10,7 +10,7 @@ class Layout extends Component {
   render() {
     return (
       <Aux>
-        <Header />
+        <Header moves={this.props.moves} undo={this.props.undo} />
         <main className={styles.Content}>
           {this.props.children}
         </main>
