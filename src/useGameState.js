@@ -35,7 +35,7 @@ function useGameState () {
       setState(gameState.getState());
     });
 
-    return (() => window.removeEventListener(listeners));
+    return ((listeners) => window.removeEventListener(listeners));
   }, [gameState]); 
 
   return [state.board, state.moves, state.solved, newGame, undo, move];

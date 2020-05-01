@@ -1,10 +1,10 @@
 import React from 'react';
 
-import useGameState from './useGameState';
+import UseGameState from './UseGameState';
 import Tile from './Tile';
 
 function App () {
-  const [board, moves, solved, newGame, undo, move] = useGameState();
+  const [board, moves, solved, newGame, undo, move] = UseGameState();
 
   return (
     <div className='game-container'>
