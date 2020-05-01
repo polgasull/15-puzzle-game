@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.board {
+  width: 405px;
+  height: 405px;
+  position: relative;
+  background: #ddd;
+}
+
+.tile {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  background: white;
+  transition: all 0.1s ease-in-out;
+  border-radius: 2px;
+  background-image: url('./assets/images/weekendesk.png');
+  background-size: 400px 400px;
+}
+
+.overlay {
+  width: 405px;
+  height: 405px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #0004;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
