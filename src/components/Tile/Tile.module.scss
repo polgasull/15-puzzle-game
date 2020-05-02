@@ -7,6 +7,11 @@
   border-radius: 2px;
   background-image: url('../../assets/images/weekendesk.png');
   background-size: 400px 400px;
+
+  @media (max-width: 500px) {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 .Pol {
@@ -18,4 +23,9 @@
   border-radius: 2px;
   background-image: url('../../assets/images/pol_1.jpg');
   background-size: 400px 400px;
+
+  @media (max-width: 500px) {
+    width: 70px;
+    height: 70px;
+  }
 }
